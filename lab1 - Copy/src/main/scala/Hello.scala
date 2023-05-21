@@ -29,6 +29,7 @@ class Hello extends Module {
  * An object extending App to generate the Verilog code.
  */
 object HelloMain extends App {
-  println("Hello World, I will now generate the Verilog file!")
+//  println("Hello World, I will now generate the Verilog file!")
+//  println("Hello Tuan, I will now generate the Verilog file!")
   emitVerilog(new Hello())
 }
